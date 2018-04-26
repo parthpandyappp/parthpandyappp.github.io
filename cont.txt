@@ -1,0 +1,32 @@
+<html>
+<head>
+<title> CONT@CT</title>
+</head>
+<center><h1><FONT FACE="harrington" SIZE=9> <u>..CONTACT DETAILS..</u> </FONT></h1></center>
+<body background="cont1.jpg">
+
+
+<table cellspacing=30 cellpadding =20>
+<tr>
+<td align="center"><img src="parth_final2.png" height="80"width ="100"></td>
+<td><big><font size=6>PARTH PANDYA</big></td>
+</tr>
+<tr>
+<td align="center"><img src="images\parth_call.png" height="60"width ="60"></td>
+<td><big><font size=6>+91 - 7698576384</big></td>
+</tr>
+<tr>
+<td align="center"><img src="gmail.png" height="60"width ="60"></td>
+<td><big><font size=6>parthpandyappp@gmail.com</big></td>
+</tr>
+<tr>
+<td align="center"><img src="ad.png" height="60"width ="60"></td>
+<td><big><font size=6>HOUSE NO.-174, DAXINI STREET, JUNAGAM, FORT-SONGADH, DIST-TAPI, GUJARAT,INDIA.</big></td>
+</tr>
+</table>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<center><p><font size=4>#NOTE# -: YOU CAN ALSO TRY TO FETCH ME THROUGH OTHER MEANS OF SOCIAL MEDIA<font><p></center>
+</body>
+</html>
