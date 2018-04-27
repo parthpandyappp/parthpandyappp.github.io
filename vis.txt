@@ -1,8 +1,0 @@
-<html>
-<head>
-<title> VISUALIZE</title>
-</head>
-<center><h1><FONT FACE="harrington" SIZE=6> ..VISUALIZE MY CONTRIBUTIONS.. </FONT></h1></center>
-<body background=cont1.jpg>
-<center><img src="FINAL.png" width="1600" /><center>
-</html>
