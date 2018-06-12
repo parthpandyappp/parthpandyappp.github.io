@@ -301,7 +301,7 @@ template {
 /* Components */
 html {
   box-sizing: border-box;
-  background-color: #ffffff; }
+  background-color: red; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
