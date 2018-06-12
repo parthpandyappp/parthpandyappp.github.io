@@ -301,7 +301,7 @@ template {
 /* Components */
 html {
   box-sizing: border-box;
-  background-color: red; }
+  background-color: #ffffff; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -356,7 +356,7 @@ img, svg {
 html {
   font-family: "Lato", sans-serif;
   font-size: 15px;
-  color: #666;
+  color: red;
   line-height: 1.7;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
