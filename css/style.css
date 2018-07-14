@@ -11,6 +11,11 @@ html {
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */ }
+.ico
+{
+    letter-spacing: 5px;
+}
+
 
 /* Sections
    ========================================================================== */
@@ -1399,7 +1404,3 @@ select {
         transform: none;
         transition: none; } }
    
-  .ico
-{
-    letter-spacing: 5px;
-}
