@@ -6,6 +6,8 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+
+ 
 html {
   line-height: 1.15;
   /* 1 */
@@ -1399,4 +1401,4 @@ select {
         border-bottom: 1px solid #6C63FF;
         transform: none;
         transition: none; } }
-   
+       
