@@ -63,7 +63,11 @@ export const SKILLS = [
         'icon': "fab fa-lg fa-python",
     },
     {
-        'name': "SQL | SQLite",
+        'name': "Django REST",
+        'icon': "fab fa-lg fa-python",
+    },
+    {
+        'name': "SQL",
         'icon': "fas fa-lg fa-database",
     },
     {
