@@ -32,11 +32,11 @@ export const SOCIAL_LINKS = [
 export const SKILLS = [
     {
         'name': "Html",
-        'icon': "fa fa-html5",
+        'icon': "fa fa-lg fa-html5",
     },
     {
         'name': "Css",
-        'icon': "fa fa-css3",
+        'icon': "fa fa-lg fa-css3",
     },
     {
         'name': "Python",
