@@ -67,6 +67,10 @@ export const SKILLS = [
         'icon': "fas fa-lg fa-database",
     },
     {
+        'name': "SQLite",
+        'icon': "fas fa-lg fa-database",
+    },
+    {
         'name': "Git",
         'icon': "fab fa-lg fa-git-alt",
     },
