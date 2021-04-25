@@ -63,7 +63,7 @@ export const SKILLS = [
         'icon': "fab fa-lg fa-python",
     },
     {
-        'name': "MongoDB",
+        'name': "SQL | SQLite",
         'icon': "fas fa-lg fa-database",
     },
     {
