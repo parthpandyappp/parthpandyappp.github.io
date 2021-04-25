@@ -35,7 +35,7 @@ export const SKILLS = [
         'icon': "fab fa-lg fa-html",
     },
     {
-        'name': "Css",
+        'name': "Cs",
         'icon': "fab fa-lg fa-css",
     },
     {
