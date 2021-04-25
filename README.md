@@ -1,3 +1,3 @@
-# Yash Walia
+# Parth Pandya
 
 Personal Portfolio Website
