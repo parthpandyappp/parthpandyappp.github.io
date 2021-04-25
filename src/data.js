@@ -63,7 +63,7 @@ export const SKILLS = [
         'icon': "fab fa-lg fa-python",
     },
     {
-        'name': "Django REST",
+        'name': "Rest-API",
         'icon': "fab fa-lg fa-python",
     },
     {
