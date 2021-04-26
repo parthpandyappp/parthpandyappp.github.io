@@ -163,7 +163,7 @@ export const EXP = [
 
 export const WORK = [
     {
-        "title": "Classroom [W.I.P.]",
+        "title": "Classroom",
         "description": "OpenSource alternative to Google Classroom project.",
         "ghlink": "https://github.com/parthpandyappp/Classroom",
         "extlink": "https://parthpandyappp.github.io/Classroom/"

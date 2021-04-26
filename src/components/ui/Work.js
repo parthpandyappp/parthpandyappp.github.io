@@ -4,7 +4,7 @@ import { WORK } from '../../data';
 const Work = () => {
     return (
         <section id="work">
-            <h1>Work</h1>
+            <h1>Projects</h1>
             <div className="work-grid">
                 {WORK.map(project => (
                     <div>
