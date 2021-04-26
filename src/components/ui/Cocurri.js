@@ -3,7 +3,7 @@ import { COCU } from '../../data';
 
 const Cocurricular = () => {
     return (
-        <section id="work">
+        <section id="Concu">
             <h1>Cocurricular</h1>
             <div className="work-grid">
                 {COCU.map(cocu => (

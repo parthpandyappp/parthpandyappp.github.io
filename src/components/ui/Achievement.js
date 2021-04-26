@@ -3,7 +3,7 @@ import { ACH } from '../../data';
 
 const Achieve = () => {
     return (
-        <section id="work">
+        <section id="Ach">
             <h1>Achievements</h1>
             <div className="work-grid">
                 {ACH.map(ach => (

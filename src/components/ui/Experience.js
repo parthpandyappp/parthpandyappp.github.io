@@ -3,7 +3,7 @@ import { EXP } from '../../data';
 
 const Experience = () => {
     return (
-        <section id="work">
+        <section id="Exp">
             <h1>Experience</h1>
             <div className="work-grid">
                 {EXP.map(exp => (
