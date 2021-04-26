@@ -111,6 +111,56 @@ export const ABOUT = [
     }
 ]
 
+export const ACH = [
+    {
+        "title": "Google CodeIn Finalist",
+        "org": "Google",
+        "icon": "fab fa-lg fa-google",
+        "desc": "A global online contest for pre-university students to introduce them with open source software development.I was selected as a Finalist from The ns-3 network simulator project.",
+        "extlink": "https://drive.google.com/file/d/1JL0o3H11AxsTNVTkzJ_pGeHBXeB_sAwp/view",
+    },
+]
+
+export const COCU = [
+    {
+        "title": "Delegate of Serbia",
+        "org": "State Institute of Hotel Management, Model United Nations",
+        "icon": "fa fa-lg fa-university",
+        "desc": "Model UN is a popular activity for those interested in learning more about how the UN operates. Hundreds of thousands of students worldwide take part every year at all educational levels. Here, I was a part of ECOSOC committe.",
+    },
+    {
+        "title": "Public Speaking Contest",
+        "org": "Times of India",
+        "icon": "fa fa-lg fa-university",
+        "desc": "The Times Public Speaking Contest, is a popular event which tests awareness, communication skills and confidence of college students.",
+    },
+]
+
+export const EXP = [
+    {
+        "title": "Backend Developer",
+        "org": "hotels.ng",
+        "icon": "fa fa-lg fa-h-square",
+        "desc": "A fun internship, HNGi7 divided in 10 stages and several elimination rounds, where we developed microapis for micro-services. I enhanced and got my hands dirty with backend part and contributed to several opensource projects chosen by the pod.",
+        "extlink": "https://www.linkedin.com/in/parth-pandya-4215b0152/",
+    },
+    {
+        "title": "Content writing lead",
+        "org": "Google Developer Student Clubs",
+        "icon": "fa fa-lg fa-code",
+        "desc": "An onCampus club where we intend to build and enhance development skills and knowledge of students. It's a club where we learn and create amazing stuff together with other inquisitive developers and exhilarate everyone to their core.",
+        "extlink": "https://dsc.community.dev/parul-university/",
+    },
+    {
+        "title": "Open-source Student",
+        "org": "Girlscript Summer of Code",
+        "icon": "fa fa-lg fa-glide",
+        "desc": "A 12-weeks long program dedicated for open source software development organized by Girlscript Foundation. The program is widely known as GSSoC.",
+        "extlink": "https://www.linkedin.com/in/parth-pandya-4215b0152/",
+    },
+]
+
+
 export const WORK = [
     {
         "title": "Classroom [W.I.P.]",
