@@ -13,7 +13,7 @@ const Header = () => {
             <li><a href="#skills">Skills</a></li>
             <li><a href="#work">Work</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="https://yashwalia.hashnode.dev/" rel="noopener noreferrer" target="_blank">Blog</a></li>
+            <li><a href="https://medium.com/@parthpandyappp" rel="noopener noreferrer" target="_blank">Blog</a></li>
           </ul>
         </nav>
       </header>
