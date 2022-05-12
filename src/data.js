@@ -95,7 +95,7 @@ export const SKILLS = [
 export const ABOUT = [
     {
         "index": "1",
-        "text": "A 19 year-old geek currently pursuing a bachelor's degree in Computer Science Engineering."
+        "text": "A 20 year-old geek currently pursuing a bachelor's degree in Computer Science Engineering."
     },
     {
         "index": "2",
@@ -126,7 +126,7 @@ export const COCU = [
         "title": "Delegate of Serbia",
         "org": "State Institute of Hotel Management, Model United Nations",
         "icon": "fa fa-lg fa-university",
-        "desc": "Model UN is a popular activity for those interested in learning more about how the UN operates. Hundreds of thousands of students worldwide take part every year at all educational levels. Here, I was a part of ECOSOC committe.",
+        "desc": "Model UN is a popular activity for those interested in learning more about how the UN operates. Hundreds & thousands of students worldwide take part every year at all educational levels. Here, I was a part of ECOSOC committe.",
     },
     {
         "title": "Public Speaking Contest",
@@ -162,6 +162,30 @@ export const EXP = [
 
 
 export const WORK = [
+    {
+        "title": "Prostack",
+        "description": "An open-source platform to peep into some highly interesting and exciting projects & connect with those project's owner for collaboration so that you can build together, because building together is always fun!",
+        "ghlink": "https://github.com/parthpandyappp/Prostack/",
+        "extlink": "https://prostack.netlify.app/"
+    },
+    {
+        "title": "Streflix",
+        "description": "An open-source video library application built upon ReactJS and MockBee backend. Users are offered with the feature of creating and curating playlists, have a collection of Liked videos, Watch later and even Watch history. You can even wipe off your saved watch history, so drag your couch and start watching!",
+        "ghlink": "https://github.com/parthpandyappp/streflix",
+        "extlink": "https://streflix.netlify.app/"
+    },
+    {
+        "title": "Pen and Pap",
+        "description": "A stationery E-commerce built upon ReactJs and Mockbee. Users can add items to Wishlist and Cart. It even has a set of filters and sorters where user can list products as per their convenience or prices and preferences. Looking for Office stationery of School stationery online? Browse a wide range of stationery items at one and only penandpap online store. ",
+        "ghlink": "https://github.com/parthpandyappp/penandpap",
+        "extlink": "https://penandpap.netlify.app"
+    },
+    {
+        "title": "PlunkOrders",
+        "description": "An actual business solution for placing and monitoring daily orders. A one-stop solution to place and review business orders, built upon ReactJs & Firebase.",
+        "ghlink": "https://github.com/parthpandyappp/plunkOrders",
+        "extlink": "https://plunkorders.netlify.app/"
+    },
     {
         "title": "Classroom",
         "description": "OpenSource alternative to Google Classroom project.",
