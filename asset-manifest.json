@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/parthpandyappp.github.io/static/css/main.9006bb12.chunk.css",
-    "main.js": "/parthpandyappp.github.io/static/js/main.5c0dcd33.chunk.js",
-    "main.js.map": "/parthpandyappp.github.io/static/js/main.5c0dcd33.chunk.js.map",
-    "runtime-main.js": "/parthpandyappp.github.io/static/js/runtime-main.af7d5e70.js",
-    "runtime-main.js.map": "/parthpandyappp.github.io/static/js/runtime-main.af7d5e70.js.map",
-    "static/js/2.f2d22cfa.chunk.js": "/parthpandyappp.github.io/static/js/2.f2d22cfa.chunk.js",
-    "static/js/2.f2d22cfa.chunk.js.map": "/parthpandyappp.github.io/static/js/2.f2d22cfa.chunk.js.map",
+    "main.css": "/parthpandyappp.github.io/static/css/main.5611e1b7.css",
+    "main.js": "/parthpandyappp.github.io/static/js/main.ab729161.js",
+    "static/media/fa-solid-900.svg": "/parthpandyappp.github.io/static/media/fa-solid-900.13de59f1a36b6cb4bca0.svg",
+    "static/media/fa-brands-400.svg": "/parthpandyappp.github.io/static/media/fa-brands-400.216edb96b562c79adc09.svg",
+    "static/media/fa-solid-900.eot": "/parthpandyappp.github.io/static/media/fa-solid-900.efbd5d20e407bbf85f2b.eot",
+    "static/media/fa-solid-900.ttf": "/parthpandyappp.github.io/static/media/fa-solid-900.07c3313b24f7b1ca85ee.ttf",
+    "static/media/fa-regular-400.svg": "/parthpandyappp.github.io/static/media/fa-regular-400.19e27d348fefc21941e0.svg",
+    "static/media/fa-brands-400.eot": "/parthpandyappp.github.io/static/media/fa-brands-400.89a52ae1d02b86d61439.eot",
+    "static/media/fa-brands-400.ttf": "/parthpandyappp.github.io/static/media/fa-brands-400.9e138496e8f1719c6ebf.ttf",
+    "static/media/fa-solid-900.woff": "/parthpandyappp.github.io/static/media/fa-solid-900.c6ec080084769a6d8a34.woff",
+    "static/media/fa-brands-400.woff": "/parthpandyappp.github.io/static/media/fa-brands-400.329a95a9172fdb2cccb4.woff",
+    "static/media/fa-solid-900.woff2": "/parthpandyappp.github.io/static/media/fa-solid-900.ada6e6df937f7e5e8b79.woff2",
+    "static/media/fa-brands-400.woff2": "/parthpandyappp.github.io/static/media/fa-brands-400.c1210e5ebe4344da5083.woff2",
+    "static/media/fa-regular-400.eot": "/parthpandyappp.github.io/static/media/fa-regular-400.4079ae2d2a15d0689568.eot",
+    "static/media/fa-regular-400.ttf": "/parthpandyappp.github.io/static/media/fa-regular-400.1017bce89c72f95bcf8e.ttf",
+    "static/media/fa-regular-400.woff": "/parthpandyappp.github.io/static/media/fa-regular-400.3672264812746c3c7225.woff",
+    "static/media/ill.png": "/parthpandyappp.github.io/static/media/ill.5192cd835eb384b58e4b.png",
+    "static/media/fa-regular-400.woff2": "/parthpandyappp.github.io/static/media/fa-regular-400.68c5af1f48e2bfca1e57.woff2",
     "index.html": "/parthpandyappp.github.io/index.html",
-    "static/css/main.9006bb12.chunk.css.map": "/parthpandyappp.github.io/static/css/main.9006bb12.chunk.css.map",
-    "static/js/2.f2d22cfa.chunk.js.LICENSE.txt": "/parthpandyappp.github.io/static/js/2.f2d22cfa.chunk.js.LICENSE.txt",
-    "static/media/all.min.css": "/parthpandyappp.github.io/static/media/fa-solid-900.efbd5d20.eot",
-    "static/media/ill.5192cd83.png": "/parthpandyappp.github.io/static/media/ill.5192cd83.png"
+    "main.5611e1b7.css.map": "/parthpandyappp.github.io/static/css/main.5611e1b7.css.map",
+    "main.ab729161.js.map": "/parthpandyappp.github.io/static/js/main.ab729161.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.af7d5e70.js",
-    "static/js/2.f2d22cfa.chunk.js",
-    "static/css/main.9006bb12.chunk.css",
-    "static/js/main.5c0dcd33.chunk.js"
+    "static/css/main.5611e1b7.css",
+    "static/js/main.ab729161.js"
   ]
 }
