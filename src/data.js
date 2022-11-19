@@ -1,5 +1,5 @@
 export const FULL_NAME = 'Parth Pandya'
-export const RESUME_LINK = 'https://drive.google.com/file/d/1VUwZyp6DPQBhfLvQe3KiyjDn8VeetOII/view?usp=sharing'
+export const RESUME_LINK = 'https://drive.google.com/file/d/1o_L8J1nNVA5XV-Ox0NLEVuU15n9j0yJd/view?usp=sharing'
 
 export const SOCIAL_LINKS = [
     {
@@ -116,9 +116,16 @@ export const ACH = [
         "title": "Google CodeIn Finalist",
         "org": "Google",
         "icon": "fab fa-lg fa-google",
-        "desc": "A global online contest for pre-university students to introduce them with open source software development.I was selected as a Finalist from The ns-3 network simulator project.",
+        "desc": "A global online contest for pre-university students organized by Google Opensource. I was selected as a Finalist in The ns-3 network simulator project and achieved an award letter from Google HQ.",
         "extlink": "https://drive.google.com/file/d/1JL0o3H11AxsTNVTkzJ_pGeHBXeB_sAwp/view",
     },
+    {
+        "title": "HackneoG Finalist",
+        "org": "neoG Camp",
+        "icon": "fa fa-lg fa-desktop",
+        "desc": "A hackathon organized by neoG camp where we built Prostack and got into the finale along with 7 other teams shortlisted from a total of 33 teams.",
+        "extlink": "https://twitter.com/neogcamp/status/1529841676549820419?s=20&t=P3dnFJlXEaAfTR3Tta2e-A"
+    }
 ]
 
 export const COCU = [
@@ -137,6 +144,20 @@ export const COCU = [
 ]
 
 export const EXP = [
+    {
+        "title": "Frontend Engineering intern",
+        "org": "nothingWorks",
+        "icon": "fa fa-lg fa-tree",
+        "desc": "Developing a spearheading frontend for an expedition application based upon NextJs and Typescript. The latest contribution involves performance enhancement in the app’s crucial form using trailblazing JS concepts such as debouncing.",
+        "extlink": "https://www.linkedin.com/in/parth-pandya-4215b0152/",
+    },
+    {
+        "title": "Developer Advocate, Generalist",
+        "org": "neoG Camp",
+        "icon": "fa fa-lg fa-desktop",
+        "desc": "Being at neoG camp, I learned to review third-party codebase and understand it neatly. I was involved in a smooth process to bridge the gap between a community and developers.",
+        "extlink": "https://www.linkedin.com/in/parth-pandya-4215b0152/",
+    },
     {
         "title": "Backend Developer",
         "org": "hotels.ng",
@@ -163,10 +184,22 @@ export const EXP = [
 
 export const WORK = [
     {
+        "title": "Lattice",
+        "description": "A virtual coordinate space to connect and share with your peers about your classy daily experiences or anything you want to share or ask in the form of micro-blogs. Form your mesh community at Lattice, developed with ReactJS, Mockbee’s Rest API, and Redux.",
+        "ghlink": "https://github.com/parthpandyappp/lattice/",
+        "extlink": "https://lattice.netlify.app/"
+    },
+    {
         "title": "Prostack",
         "description": "An open-source platform to peep into some highly interesting and exciting projects & connect with those project's owner for collaboration so that you can build together, because building together is always fun!",
         "ghlink": "https://github.com/parthpandyappp/Prostack/",
         "extlink": "https://prostack.netlify.app/"
+    },
+    {
+        "title": "UnSelected: generate your cover letter",
+        "description": "An AI-powered app built using GPT3 (Generative Pre-trained Transformer 3) is an autoregressive language model that uses deep learning text-DaVinci-002 to produce human-like text powered by ReactJS.",
+        "ghlink": "https://github.com/logan1x/Prostack/",
+        "extlink": "https://unselected.vercel.app/"
     },
     {
         "title": "Streflix",
