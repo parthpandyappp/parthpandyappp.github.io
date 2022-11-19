@@ -187,7 +187,7 @@ export const WORK = [
         "title": "Lattice",
         "description": "A virtual coordinate space to connect and share with your peers about your classy daily experiences or anything you want to share or ask in the form of micro-blogs. Form your mesh community at Lattice, developed with ReactJS, Mockbee’s Rest API, and Redux.",
         "ghlink": "https://github.com/parthpandyappp/lattice/",
-        "extlink": "https://lattice.netlify.app/"
+        "extlink": "https://lattice-networks.netlify.app/"
     },
     {
         "title": "Prostack",
@@ -198,7 +198,7 @@ export const WORK = [
     {
         "title": "UnSelected: generate your cover letter",
         "description": "An AI-powered app built using GPT3 (Generative Pre-trained Transformer 3) is an autoregressive language model that uses deep learning text-DaVinci-002 to produce human-like text powered by ReactJS.",
-        "ghlink": "https://github.com/logan1x/Prostack/",
+        "ghlink": "https://github.com/logan1x/unselected/",
         "extlink": "https://unselected.vercel.app/"
     },
     {
