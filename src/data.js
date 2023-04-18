@@ -1,5 +1,5 @@
 export const FULL_NAME = 'Parth Pandya'
-export const RESUME_LINK = 'https://drive.google.com/file/d/1o_L8J1nNVA5XV-Ox0NLEVuU15n9j0yJd/view?usp=sharing'
+export const RESUME_LINK = 'https://drive.google.com/file/d/1SEkIIgToFyG6oJj7LZuwW3nckOisrOHz/view?usp=sharing'
 
 export const SOCIAL_LINKS = [
     {
@@ -145,6 +145,12 @@ export const COCU = [
 
 export const EXP = [
     {
+        "title": "SDE Intern",
+        "org": "Alphaa AI",
+        "icon": "fa fa-lg fa-tachometer",
+        "desc": "During my internship at SuperAI, I had the opportunity to work on building full stack web applications using cutting-edge technologies such as React Typescript, NestJS, and PassportJs. I also gained valuable experience working with Azure DevOps, which allowed me to collaborate effectively with my team and deliver exceptional user experiences",
+        "extlink": "https://www.linkedin.com/in/parth-pandya-4215b0152/",
+    }, {
         "title": "Frontend Engineering intern",
         "org": "nothingWorks",
         "icon": "fa fa-lg fa-tree",
