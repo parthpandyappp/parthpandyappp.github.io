@@ -1,0 +1,415 @@
+:root {
+  --bg: oklch(96.3% 0.002 197.1);
+  --text: oklch(21% 0.004 220);
+  --secondary: oklch(45% 0.006 220);
+  --muted: oklch(62% 0.008 220);
+  --border: oklch(89% 0.003 197.1);
+  --hover-bg: oklch(93.5% 0.003 197.1);
+  --sans: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  --mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    monospace;
+}
+
+:root[data-theme="dark"] {
+  --bg: oklch(20% 0.022 262);
+  --text: oklch(92% 0.006 250);
+  --secondary: oklch(72% 0.014 255);
+  --muted: oklch(52% 0.018 258);
+  --border: oklch(29% 0.024 262);
+  --hover-bg: oklch(24% 0.023 262);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--sans);
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: var(--text);
+  background: var(--bg);
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 0;
+  -webkit-font-smoothing: antialiased;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+::selection {
+  background: var(--text);
+  color: var(--bg);
+}
+
+a {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--muted);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.15s ease, color 0.15s ease;
+}
+
+a:hover {
+  text-decoration-color: var(--text);
+}
+
+:focus-visible {
+  outline: 1.5px solid var(--text);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+/* ---------- header ---------- */
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 4.5rem;
+}
+
+.wordmark {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+}
+
+.site-header nav {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.site-header nav a {
+  font-size: 0.82rem;
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+.site-header nav a:hover {
+  color: var(--text);
+}
+
+#theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--secondary);
+  cursor: pointer;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+#theme-toggle:hover {
+  color: var(--text);
+  background: var(--hover-bg);
+}
+
+.icon-moon {
+  display: none;
+}
+
+:root[data-theme="dark"] .icon-moon {
+  display: block;
+}
+
+:root[data-theme="dark"] .icon-sun {
+  display: none;
+}
+
+/* ---------- intro ---------- */
+
+.intro {
+  margin-bottom: 4.5rem;
+}
+
+.intro h1 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.intro .role {
+  font-size: 0.88rem;
+  color: var(--muted);
+  margin: 0.15rem 0 1.6rem;
+}
+
+.intro p {
+  color: var(--secondary);
+}
+
+.intro p strong {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.intro p + p {
+  margin-top: 0.9rem;
+}
+
+.intro-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-top: 1.75rem;
+}
+
+.intro-links a {
+  font-size: 0.82rem;
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+.intro-links a:hover {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+/* ---------- sections ---------- */
+
+section {
+  margin-bottom: 4.25rem;
+}
+
+h2 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.4rem;
+}
+
+/* ---------- entries (shared) ---------- */
+
+.entry {
+  padding: 0.9rem 0.9rem;
+  margin: 0 -0.9rem;
+  border-radius: 8px;
+  transition: background 0.15s ease;
+}
+
+.entry:hover {
+  background: var(--hover-bg);
+}
+
+.entry + .entry {
+  margin-top: 0.35rem;
+}
+
+.entry-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1.25rem;
+}
+
+.entry h3 {
+  font-size: 0.92rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.entry h3 .role {
+  color: var(--secondary);
+  font-weight: 400;
+}
+
+.entry .when {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.entry .links {
+  display: flex;
+  gap: 0.9rem;
+  flex-shrink: 0;
+}
+
+.entry .links a {
+  font-size: 0.8rem;
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+.entry .links a:hover {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.entry .tech {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-top: 0.1rem;
+}
+
+.entry .desc {
+  font-size: 0.88rem;
+  color: var(--secondary);
+  margin-top: 0.45rem;
+}
+
+.entry ul {
+  margin-top: 0.6rem;
+  padding-left: 1.05rem;
+}
+
+.entry ul li {
+  font-size: 0.88rem;
+  color: var(--secondary);
+  margin-bottom: 0.3rem;
+}
+
+.entry ul li strong {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.entry ul li::marker {
+  color: var(--muted);
+}
+
+.more-link {
+  margin-top: 1.1rem;
+  padding: 0 0.9rem;
+}
+
+.more-link a {
+  font-size: 0.82rem;
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+.more-link a:hover {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+/* ---------- contact ---------- */
+
+#contact p {
+  color: var(--secondary);
+  max-width: 52ch;
+}
+
+#contact .email {
+  margin-top: 1.1rem;
+}
+
+#contact .email a {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-top: 1.6rem;
+}
+
+.contact-links a {
+  font-size: 0.82rem;
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+/* ---------- footer ---------- */
+
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  border-top: 1px solid var(--border);
+  padding: 1.25rem 0 2rem;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+
+.site-footer a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: var(--text);
+}
+
+/* ---------- inner pages ---------- */
+
+.page-title {
+  margin-bottom: 3rem;
+}
+
+.page-title h1 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.page-title p {
+  color: var(--secondary);
+  max-width: 55ch;
+}
+
+/* ---------- misc ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+@media (max-width: 540px) {
+  body {
+    padding: 2rem 1.25rem 0;
+  }
+
+  .site-header {
+    margin-bottom: 3.5rem;
+  }
+
+  .entry-head {
+    flex-wrap: wrap;
+  }
+}
